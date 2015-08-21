@@ -169,4 +169,13 @@ typedef NS_ENUM(NSInteger, SDImageCacheType) {
  */
 - (BOOL)diskImageExistsWithKey:(NSString *)key;
 
+/**
+ *  ddzcoeur add
+ *
+ *  @param key file key
+ *
+ *  @return file path
+ */
+- (NSString *)defaultCachePathForKey:(NSString *)key;
+
 @end
